@@ -1,11 +1,21 @@
 # RLHF-Summary
 - [ ] single hard prompt, such as `</s>`
 - [ ] multiple hard prompt, such as constant region, CDR region, paratope, epitope, disulfide
-- [ ] Earth (Orbit/Moon)
-- [ ] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [x] Comet Haley
+```
+# Version 1:
+source(x): antigen
+context(prompt): constant region
+target(y): cdr region
+
+# Version 2:
+source(x): antigen epitope
+context(prompt): constant region
+target(y): antibody paratope
+
+# Version 3:
+source(x): antigen epitope
+context(prompt): constant region
+target(y): antibody cdr region
+```
+- [ ] select prompt of antibody-antigen complex
 
